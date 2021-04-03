@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ksmt.Kismaat" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Kismaat"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".LoadingScreen5" />
+        <activity android:name=".ProfileScreen" />
+        <activity android:name=".LoadingScreen4" />
+        <activity android:name=".LoadingScreen3" />
+        <activity android:name=".BookedTickets" />
+        <activity android:name=".LoadingScreen2" />
+        <activity android:name=".Opening" />
+        <activity android:name=".SignUpScreen32" />
+        <activity android:name=".ResultLottery" />
+        <activity android:name=".PaymentFailed" />
+        <activity android:name=".LoadingScreen" />
+        <activity android:name=".DownloadTicket" />
+        <activity android:name=".AfterPayment" />
+        <activity android:name=".GooglePayActivity" />
+        <activity
+            android:name=".UserAccountScreen3"
+            android:label="@string/title_activity_user_account_screen3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UserAccountScreen2" />
+        <activity android:name=".NoInternet" />
+        <activity android:name=".SignInScreen" />
+        <activity android:name=".UserAccountScreen1" />
+        <activity android:name=".SignUpScreen23" />
+        <activity android:name=".SignUpScreen3" />
+        <activity android:name=".registerScreen" />
+        <activity android:name=".SignUpScreen2" />
+        <activity android:name=".SignUpScreen1" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".KismaatNotification"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

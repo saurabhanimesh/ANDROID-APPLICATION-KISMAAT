@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/secondpage"
+    tools:context=".SignInScreen">
+
+    <ImageView
+        android:id="@+id/imageVi"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintBottom_toTopOf="@+id/sendlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/blankname" />
+
+    <ImageView
+        android:id="@+id/imageVie"
+        android:layout_width="310dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.124"
+        app:srcCompat="@drawable/password" />
+
+    <EditText
+        android:id="@+id/phoneLogin"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:fontFamily="@font/old_standard_tt"
+        android:hint="Enter your registered mobile number"
+        android:inputType="phone"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageVi"
+        app:layout_constraintEnd_toEndOf="@+id/imageVi"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="@+id/imageVi"
+        app:layout_constraintTop_toTopOf="@+id/imageVi"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <EditText
+        android:id="@+id/otplogin"
+        android:layout_width="200dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:fontFamily="@font/old_standard_tt"
+        android:hint="Enter recieved OTP"
+        android:inputType="numberPassword"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageVie"
+        app:layout_constraintEnd_toEndOf="@+id/imageVie"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="@+id/imageVie"
+        app:layout_constraintTop_toTopOf="@+id/imageVie"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="76dp"
+        android:layout_height="28dp"
+        android:background="@drawable/log"
+        app:layout_constraintEnd_toEndOf="@+id/imageVie"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="@+id/imageVie"
+        app:layout_constraintTop_toBottomOf="@+id/imageVie" />
+
+    <TextView
+        android:id="@+id/infologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageVie"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="@+id/imageVie"
+        app:layout_constraintTop_toBottomOf="@+id/imageVie" />
+
+    <Button
+        android:id="@+id/sendlogin"
+        android:layout_width="107dp"
+        android:layout_height="33dp"
+        android:background="@drawable/aga"
+        app:layout_constraintBottom_toTopOf="@+id/imageVie"
+        app:layout_constraintEnd_toEndOf="@+id/imageVi"
+        app:layout_constraintStart_toStartOf="@+id/imageVi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

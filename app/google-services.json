@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "745496732208",
+    "firebase_url": "https://kismaatapp.firebaseio.com",
+    "project_id": "kismaatapp",
+    "storage_bucket": "kismaatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745496732208:android:3fa013cd2e4daa15c603f5",
+        "android_client_info": {
+          "package_name": "com.ksmt.Kismaat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745496732208-0mlm1kli3efvao36aokecsrihfbogb55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ksmt.Kismaat",
+            "certificate_hash": "7d619b66aa5e119a38bf99b113e64367d1b35c81"
+          }
+        },
+        {
+          "client_id": "745496732208-jk2ct4mofhs0iq8kitfqihf4ldka8aq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ksmt.Kismaat",
+            "certificate_hash": "ea0433889cd53d2a4e5e38d1d35dcda655f6b58e"
+          }
+        },
+        {
+          "client_id": "745496732208-us0g1vjfsosq3t1taj1ld93kf0rgmhrb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA31pB82sNs_BSVlRNNDpmkckiSH0Z_XJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745496732208-us0g1vjfsosq3t1taj1ld93kf0rgmhrb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

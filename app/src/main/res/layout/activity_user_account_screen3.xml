@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpageblank1"
+    tools:context=".UserAccountScreen3">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:text="Payment is only allowed through UPI methods."
+        app:layout_constraintEnd_toEndOf="@+id/participate"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/participate"
+        app:layout_constraintTop_toBottomOf="@+id/participate" />
+
+    <Button
+        android:id="@+id/participate"
+        android:layout_width="306dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/parti"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="270dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="68dp"
+        android:fontFamily="casual"
+        android:text="Once all tickets are sold out , then there will be a live lottery withdrawal for this contest. we will noitfy you about that and provide you with the live Link."
+        app:layout_constraintEnd_toEndOf="@+id/participate"
+        app:layout_constraintStart_toStartOf="@+id/participate"
+        app:layout_constraintTop_toBottomOf="@+id/participate" />
+</androidx.constraintlayout.widget.ConstraintLayout>
